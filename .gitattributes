@@ -1,0 +1,28 @@
+# Using the below command in matlab to auto create this common binary file
+# $ copyfile(fullfile(matlabroot,'toolbox','shared','cmlink','git','auxiliary_files','mwgitattributes'),fullfile(pwd,'.gitattributes'))
+*.fig binary
+*.mat binary
+*.mdl binary diff merge=mlAutoMerge
+*.mdlp binary
+*.mex* binary
+*.mlapp binary
+*.mldatx binary
+*.mlproj binary
+*.mlx binary
+*.p binary
+*.sfx binary
+*.sldd binary
+*.slreqx binary merge=mlAutoMerge
+*.slmx binary merge=mlAutoMerge
+*.sltx binary
+*.slxc binary
+*.slx binary merge=mlAutoMerge
+*.slxp binary
+
+## Other common binary file types
+*.docx binary
+*.exe binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.xlsx binary
